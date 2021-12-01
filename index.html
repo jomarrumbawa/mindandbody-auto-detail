@@ -6,8 +6,22 @@
     <title>Hello Bulma!</title>
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
     />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- test css -->
+    <style>
+      .test {
+        border: 1px solid red;
+      }
+    </style>
   </head>
   <body>
     <!-- navbar -->
@@ -38,12 +52,239 @@
         </div>
       </div>
     </nav>
-    <section class="section">
-      <div class="container">
-        <h1 class="title">Hello World</h1>
-        <p class="subtitle">My first website with <strong>Bulma</strong>!</p>
+    <!-- Hero -->
+    <section class="hero is-fullheight-with-navbar">
+      <div class="hero-body is-justify-content-center">
+        <div class="has-text-centered">
+          <p class="title is-2">Mind&Body Auto Detail</p>
+          <p class="subtitle is-4">
+            Mind&body Auto Detail is a high end mobile detailing company
+            servicing the Greater Seattle area.
+          </p>
+          <a href="#process" class="button is-info">How It Works</a>
+        </div>
       </div>
     </section>
+    <!-- process -->
+    <section id="process">
+      <div class="container">
+        <h2 class="title is-3 has-text-centered">How It Works</h2>
+        <hr />
+        <div class="columns">
+          <div class="column is-align-self-stretch">
+            <div class="card">
+              <div class="card-content">
+                <i class="fas fa-shopping-cart"></i>
+                <h3>1. Select a packge</h3>
+                <p>
+                  We have tons of different packages for everyones needs.
+                  Depending on if you need just an interior detail or a full
+                  inside and out detail we have it all. Search through our
+                  services and see which fits your needs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-align-self-stretch">
+            <div class="card">
+              <div class="card-content">
+                <i class="fas fa-phone-alt"></i>
+                <h3>2. Contact Us</h3>
+                <p>
+                  Once you have an idea of which package you want, give us a
+                  call or leave a message and one of our representatives will
+                  get back to you as soon as possible to set up a time and date.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-align-self-stretch">
+            <div class="card">
+              <div class="card-content">
+                <i class="fas fa-home"></i>
+                <h3>3. Sit Back & Relax</h3>
+                <p>
+                  Once we have a time and date setup, we come to you no
+                  questions asked. No matter what service is chose we come to
+                  your home and do all the work there. No need for you to get up
+                  and travel.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- packages -->
+    <section>
+      <div class="container px-4">
+        <h2 class="title is-3 has-text-centered">Packages</h2>
+        <hr />
+        <div class="columns is-flex-wrap-wrap">
+          <div class="column is-one-third-desktop is-half-tablet">
+            <div class="card">
+              <div class="card-header has-background-info">
+                <p
+                  class="
+                    card-header-title
+                    is-justify-content-center
+                    has-text-white
+                  "
+                >
+                  Premium Full Detail
+                </p>
+              </div>
+              <div class="card-content">
+                <ul>
+                  <li>Interior + Exterior</li>
+                  <li>Gentle Hand Wash</li>
+                  <li>Full Vacuum</li>
+                  <li>Carpet Shampoo</li>
+                  <li>Seat Cleaning & Conditioning</li>
+                  <li>Sap/Bug Removal</li>
+                  <li>Steam Clean</li>
+                  <li>Scratch Removal</li>
+                  <li>Engine Bay Clean</li>
+                  <li>Polish/Scratch Removal</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-third-desktop is-half-tablet">
+            <div class="card">
+              <div class="card-header has-background-info">
+                <p
+                  class="
+                    card-header-title
+                    is-justify-content-center
+                    has-text-white
+                  "
+                >
+                  Full Detail Silver
+                </p>
+              </div>
+              <div class="card-content">
+                <ul>
+                  <li>Interior + Exterior</li>
+                  <li>Gentle Hand Wash</li>
+                  <li>Full Vacuum</li>
+                  <li>Carpet Shampoo</li>
+                  <li>Seat Cleaning & Conditioning</li>
+                  <li>Sap/Bug Removal</li>
+                  <li>Steam Clean</li>
+                  <li>Wax</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-third-desktop is-half-tablet">
+            <div class="card">
+              <div class="card-header has-background-info">
+                <p
+                  class="
+                    card-header-title
+                    is-justify-content-center
+                    has-text-white
+                  "
+                >
+                  Bronze
+                </p>
+              </div>
+              <div class="card-content">
+                <ul>
+                  <li>Interior + Exterior</li>
+                  <li>Gentle Hand Wash</li>
+                  <li>Full Vacuum</li>
+                  <li>Surface Wipe Down</li>
+                  <li>Polish</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-third-desktop is-half-tablet">
+            <div class="card">
+              <div class="card-header has-background-info">
+                <p
+                  class="
+                    card-header-title
+                    is-justify-content-center
+                    has-text-white
+                  "
+                >
+                  Detox
+                </p>
+              </div>
+              <div class="card-content">
+                <ul>
+                  <li>Interior</li>
+                  <li>Full Vacuum</li>
+                  <li>Carpet Shampoo</li>
+                  <li>Seat Cleaning & Conditioning</li>
+                  <li>Surface Wipe Down</li>
+                  <li>Carpet Protection</li>
+                  <li>Odor Elimination</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-third-desktop is-half-tablet">
+            <div class="card">
+              <div class="card-header has-background-info">
+                <p
+                  class="
+                    card-header-title
+                    is-justify-content-center
+                    has-text-white
+                  "
+                >
+                  Rejuvenation
+                </p>
+              </div>
+              <div class="card-content">
+                <ul>
+                  <li>Gentle Hand Wash</li>
+                  <li>Full Vacuum</li>
+                  <li>Seat Cleaning & Conditioning</li>
+                  <li>Surface Wipe Down</li>
+                  <li>Wax</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer has-background-grey-dark has-text-white">
+      <div class="content has-text-centered">
+        <p
+          class="
+            is-size-3 is-size-5-mobile
+            has-text-weight-semibold
+            is-uppercase
+          "
+        >
+          "Where Peace of Mind and Excellent Service Meets"
+        </p>
+        <div class="social pb-4">
+          <a
+            class="has-text-white is-size-4 px-4"
+            href="https://www.instagram.com/mindandbodyautodetail/"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a class="has-text-white is-size-4 px-4" href="tel:206-948-1120"
+            ><i class="fa fa-phone-alt"></i
+          ></a>
+          <a
+            class="has-text-white is-size-4 px-4"
+            href="mailto:mindandbodymobiledetail@gmail.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+        <p>&copy; All Rights Reserved</p>
+      </div>
+    </footer>
     <script src="index.js"></script>
   </body>
 </html>
