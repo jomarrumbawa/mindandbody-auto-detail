@@ -1,3 +1,29 @@
 * {
   scroll-behavior: smooth;
 }
+
+img {
+  display: block;
+  height: 100%;
+}
+
+.services {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-block: 50px;
+}
+
+.service {
+  display: flex;
+}
+
+.service-content {
+  width: 50%;
+  display: grid;
+  place-content: center;
+  padding: 25px;
+}
+
+.service-img {
+  width: 50%;
+}
